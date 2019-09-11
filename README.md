@@ -1,6 +1,6 @@
-# Google Engineering Practices Documentation
+# Google 工程实践 Documentation
 
-Google has many generalized engineering practices that cover all languages and
+Google has many 通用化的工程实践 that cover all languages and
 all projects. These documents represent our collective experience of various
 best practices that we have developed over time. It is possible that open source
 projects or other organizations would benefit from this knowledge, so we work to
@@ -8,8 +8,7 @@ make it available publicly when possible.
 
 Currently this contains the following documents:
 
-*   [Google's Code Review Guidelines](review/index.md), which are actually two
-    separate sets of documents:
+*   [Google's Code Review Guidelines](review/index.md)包含两组文件:
     *   [The Code Reviewer's Guide](review/reviewer/index.md)
     *   [The Change Author's Guide](review/developer/index.md)
 
