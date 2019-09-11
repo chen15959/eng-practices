@@ -1,22 +1,33 @@
-# Writing good CL descriptions
+# 书写好的CL描述
 
 
 
+CL描述记录了这个CL做了什么以及为什么要这样做。
 A CL description is a public record of **what** change is being made and **why**
-it was made. It will become a permanent part of our version control history, and
+it was made. 
+他是版本历史中不可更改的部分，除了你的code reviewer之外，可能还会在未来的数十年里被数百人阅读。
+It will become a permanent part of our version control history, and
 will possibly be read by hundreds of people other than your reviewers over the
 years.
 
-Future developers will search for your CL based on its description. Someone in
+其他开发者将通过CL描述搜索你的CL。
+Future developers will search for your CL based on its description. 
+其他开发者可能只记得大概的模糊信息，而没有直接的CL号。
+Someone in
 the future might be looking for your change because of a faint memory of its
-relevance but without the specifics handy. If all the important information is
+relevance but without the specifics handy. 
+如果重要信息仅仅放在代码中，而不是CL描述中，那么定位到这个CL会更加麻烦。
+If all the important information is
 in the code and not the description, it's going to be a lot harder for them to
 locate your CL.
 
 ## First Line {#firstline}
 
+*   关于做了什么的简短描述
 *   Short summary of what is being done.
+*   一个类似命令的完整句子
 *   Complete sentence, written as though it was an order.
+*   后面跟一个空行
 *   Follow by empty line.
 
 The **first line** of a CL description should be a short summary of
